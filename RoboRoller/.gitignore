@@ -75,3 +75,6 @@ crashlytics-build.properties
 
 #photoshop file type (Added due to large PSD impacting commit)
 *.psd
+
+#Unity version control permissions wtf
+*.plastic
