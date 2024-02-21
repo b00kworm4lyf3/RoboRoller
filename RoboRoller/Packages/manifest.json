@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.tripolygon.umodeler-x": "file:com.tripolygon.umodeler-x-0.19.0/com.tripolygon.umodeler-x-0.19.0.tgz",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.2d.tilemap": "1.0.0",
     "com.unity.cinemachine": "2.9.5",
