@@ -4252,8 +4252,43 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &1327456626
-SphereCollider:
+--- !u!4 &1327456629 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3869613023108170424, guid: 17947000aa6db486ca06116f86480106, type: 3}
+  m_PrefabInstance: {fileID: 6968139820198068149}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1327456630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327456624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 68a02874a85269441a8bb3ee1d73d75c, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!136 &1327456636
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4270,14 +4305,11 @@ SphereCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.07452433
-  m_Center: {x: -0.009999997, y: 0.044524033, z: -2.0622517e-13}
---- !u!4 &1327456629 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3869613023108170424, guid: 17947000aa6db486ca06116f86480106, type: 3}
-  m_PrefabInstance: {fileID: 6968139820198068149}
-  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 2
+  m_Radius: 0.05
+  m_Height: 0.13778983
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.04588931, z: 0}
 --- !u!4 &1338831941 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1691670704450424464, guid: 4cc5bc825caa626478e9d80a31b7850b, type: 3}
@@ -6884,10 +6916,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4537499934263793666, guid: 17947000aa6db486ca06116f86480106, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1327456626}
+      addedObject: {fileID: 1327456625}
     - targetCorrespondingSourceObject: {fileID: 4537499934263793666, guid: 17947000aa6db486ca06116f86480106, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1327456625}
+      addedObject: {fileID: 1327456630}
+    - targetCorrespondingSourceObject: {fileID: 4537499934263793666, guid: 17947000aa6db486ca06116f86480106, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1327456636}
   m_SourcePrefab: {fileID: 100100000, guid: 17947000aa6db486ca06116f86480106, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
