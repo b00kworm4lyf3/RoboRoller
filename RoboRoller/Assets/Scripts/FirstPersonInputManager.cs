@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 public class FirstPersonInputManager : MonoBehaviour{
-    public InputMaster inputMaster;
+    public BotActions inputMaster;
     
     void Awake(){
-        inputMaster = new InputMaster();
+        inputMaster = new BotActions();
     }
 
     void OnEnable(){

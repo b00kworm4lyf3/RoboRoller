@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour{
         float right = inputManager.inputMaster.Movement.Right.ReadValue<float>();
         Vector3 move = transform.right * right + transform.forward * forward;
 
-        move *= inputManager.inputMaster.Movement.Dash.ReadValue<float>() = 0 ? speed : dashSpeed;
+        move *= inputManager.inputMaster.Movement.Dash.ReadValue<float>() == 0 ? speed : dashSpeed;
 
         rb.velocity = new Vector3(move.x, rb.velocity.y, move.z);
     }
