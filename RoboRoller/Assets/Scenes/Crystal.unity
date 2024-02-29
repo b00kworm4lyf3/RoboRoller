@@ -12435,7 +12435,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 26.19
+=======
+      value: 6.154
+>>>>>>> parent of ca4fb942 (:))
 =======
       value: 6.154
 >>>>>>> parent of ca4fb942 (:))
