@@ -12434,11 +12434,7 @@ PrefabInstance:
     - target: {fileID: 3869613023108170424, guid: 17947000aa6db486ca06116f86480106, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
-<<<<<<< HEAD
       value: 26.19
-=======
-      value: 6.154
->>>>>>> parent of ca4fb942 (:))
 =======
       value: 6.154
 >>>>>>> parent of ca4fb942 (:))
